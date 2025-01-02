@@ -1,0 +1,1 @@
+tagSearchIndex = [{"l":"IEEE","h":"me.whiteship.chapter08.item56.DocExamples.fragment2()","d":"754","u":"me/whiteship/chapter08/item56/DocExamples.html#IEEE"}];updateSearchResults();

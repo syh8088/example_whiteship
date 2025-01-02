@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"me.whiteship.chapter08.item56","l":"DocExamples"},{"p":"me.whiteship.chapter08.item56","l":"DocExamples.ExceptionTest"},{"p":"me.whiteship.chapter08.item56","l":"DocExamples.OrchestraSection"},{"p":"me.whiteship.chapter08.item56","l":"DocExamples.Suspect"}];updateSearchResults();
