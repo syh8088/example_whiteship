@@ -36,13 +36,13 @@ public class Card {
     }
 
     // 코드 45-5 데카르트 곱 계산을 스트림 방식으로 구현 (276쪽)
-//    private static List<Card> newDeck() {
-//        return Stream.of(Suit.values())
-//                .flatMap(suit ->
-//                        Stream.of(Rank.values())
-//                                .map(rank -> new Card(suit, rank)))
-//                .collect(toList());
-//    }
+    private static List<Card> newDeckV2() {
+        return Stream.of(Suit.values())
+                .flatMap(suit ->
+                        Stream.of(Rank.values())
+                                .map(rank -> new Card(suit, rank)))
+                .collect(toList());
+    }
 
     public static void main(String[] args) {
         System.out.println(NEW_DECK);

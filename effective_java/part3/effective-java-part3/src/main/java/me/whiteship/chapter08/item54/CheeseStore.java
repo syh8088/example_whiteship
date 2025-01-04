@@ -24,6 +24,9 @@ public class CheeseStore {
         return cheesesInStock.isEmpty() ? null : new ArrayList<>(cheesesInStock);
     }
 
+    /**
+     * item 54. null 이 아닌, 빈 컬렉션이나 배열을 반환하라.
+     */
 //    public Cheese[] getCheeseArray() {
 //        return cheesesInStock.toArray(EMPTY_CHEESE_ARRAY);
 //    }

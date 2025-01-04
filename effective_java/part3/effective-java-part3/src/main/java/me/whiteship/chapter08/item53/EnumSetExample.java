@@ -6,6 +6,9 @@ import java.util.EnumSet;
 
 public class EnumSetExample {
 
+    /**
+     * 성능에 민감하다면, 매개변수를 여러 개 받는 메서드를 다중정의 하자 (EnumSet)
+     */
     public static void main(String[] args) {
         EnumSet.of(Text.Style.BOLD, Text.Style.ITALIC);
     }
