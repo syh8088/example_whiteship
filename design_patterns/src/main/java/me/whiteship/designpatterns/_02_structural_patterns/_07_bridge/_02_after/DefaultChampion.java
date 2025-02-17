@@ -2,6 +2,9 @@ package me.whiteship.designpatterns._02_structural_patterns._07_bridge._02_after
 
 import me.whiteship.designpatterns._02_structural_patterns._07_bridge._01_before.Champion;
 
+/**
+ * Abstraction
+ */
 public class DefaultChampion implements Champion {
 
     private Skin skin;

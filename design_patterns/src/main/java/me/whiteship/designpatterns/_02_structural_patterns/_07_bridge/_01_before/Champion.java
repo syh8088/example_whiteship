@@ -2,6 +2,9 @@ package me.whiteship.designpatterns._02_structural_patterns._07_bridge._01_befor
 
 import me.whiteship.designpatterns._02_structural_patterns._07_bridge._02_after.Skin;
 
+/**
+ * Implementation
+ */
 public interface Champion extends Skin {
 
     void move();
